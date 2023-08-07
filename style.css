@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #323232 0%, #000000 100%); /* Gradiente escuro */
+}
+
+#scoreboard, #restartGame {
+    margin-top: 20px;
+    color: #fff; /* Texto em branco para contraste */
+}
+
+.main-game {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: rgba(255,255,255,0.1); /* Transparência para deixar um pouco do gradiente visível */
+    border-radius: 15px;
+    height: 220px;
+    width: 850px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Sombra mais acentuada para destacar no fundo escuro */
+    padding: 10px;
+}
+
+.blue, .red, .yellow, .green {
+    flex: 1;
+    height: 100%;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    margin: 0 5px; /* espaço entre os quadrados */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* sombra para dar efeito elevado */
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.selected {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3); /* sombra mais acentuada para o efeito selecionado */
+}
+
+#scoreboard {
+    font-size: 24px;
+    margin-bottom: 20px;
+    background-color: rgba(255,255,255,0.1); /* Transparência para fundo */
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+#restartGame {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555; /* Cor de fundo mais escura para se adequar ao tema */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#restartGame:hover {
+    background-color: #777; /* Cor de hover um pouco mais clara */
+}
+
+.message {
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 20px;
+    border: 2px solid #444; /* Borda mais escura */
+    border-radius: 5px;
+    background-color: rgba(50,50,50,0.8); /* Fundo semi-transparente escuro */
+    display: none;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    color: #fff; /* Texto em branco para contraste */
+}
+.game-title {
+    font-size: 3rem; /* Tamanho da fonte */
+    font-weight: bold; /* Letra em negrito */
+    color: #fff; /* Cor da letra */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Sombra para a letra */
+    margin-bottom: 20px; /* Espaçamento entre o título e os quadrados */
+}

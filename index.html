@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="./icon.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./imgs/icon.png" />
     <title>Joguinho Genius</title>
 </head>
+
 <body>
     <div class="main-game">
         <div class="game-title">Joguinho Genius</div>
@@ -23,6 +25,14 @@
     <div id="message" class="message"></div>
     <div id="scoreboard">Pontuação: 0</div>
     <button id="restartGame">Recomeçar o Jogo</button>
-    <script type="text/javascript" src="script.js"></script>
+
+    <!-- Adicionado os elementos de áudio aqui -->
+    <audio id="soundGreen" src="./sounds/green.mp3"></audio>
+    <audio id="soundRed" src="./sounds/red.mp3"></audio>
+    <audio id="soundYellow" src="./sounds/yellow.mp3"></audio>
+    <audio id="soundBlue" src="./sounds/blue.mp3"></audio>
+
+    <script type="text/javascript" src="./javascript/script.js"></script>
 </body>
+
 </html>

@@ -1,42 +1,39 @@
-<h1 align="center">Joguinho Genius</h1>
+# Joguinho Genius
 
-<p align="center">
-  https://joguinhogenius.vercel.app/
-</p>
+![Joguinho Genius](https://meusjoguinhos.vercel.app/img/JoguinhoGenius.png)
 
-<p align="center">
-  <strong>Um jogo de memória e destreza para testar suas habilidades!</strong>
-</p>
+Este é o repositório do "Joguinho Genius", um jogo de memória desenvolvido utilizando HTML, CSS e JavaScript.
 
-<p align="center">
-  <a href="#sobre-o-jogo">Sobre o Jogo</a> •
-  <a href="#como-jogar">Como Jogar</a> •
-  <a href="#dependências">Dependências</a> •
-  <a href="#autor">Autor</a> •
-  <a href="#licença">Licença</a>
-</p>
+## Visão Geral
 
-## Sobre o Jogo
-
-O "Joguinho Genius" é um jogo divertido que testa suas habilidades de memória e destreza. O jogo exibirá uma sequência de cores que você deve repetir corretamente para avançar. À medida que você acerta a sequência, a dificuldade aumenta, desafiando você a lembrar e reproduzir uma sequência cada vez mais longa e complexa.
+O "Joguinho Genius" é uma versão digital do clássico jogo de memória Genius. O jogador deve repetir a sequência de cores reproduzida pelo jogo. Cada cor é associada a um som específico. O jogador deve lembrar e repetir a sequência correta para acumular pontos.
 
 ## Como Jogar
 
-1. Abra o arquivo `index.html` em um navegador da web.
-2. O jogo exibirá uma sequência de cores em uma ordem específica.
-3. Memorize a sequência de cores exibida.
-4. Clique nas cores na mesma ordem em que foram exibidas para repetir a sequência.
-5. À medida que você avança, a sequência de cores ficará mais longa e desafiadora.
-6. Continue repetindo as sequências corretamente para aumentar sua pontuação.
+1. Acesse o jogo através do seguinte link: [Joguinho Genius](https://joguinhogenius.vercel.app/).
+2. O jogo exibirá uma sequência de cores e sons.
+3. Repita a sequência corretamente clicando nas cores na ordem exata em que foram mostradas.
+4. A cada rodada, a sequência ficará um pouco mais longa e desafiadora.
+5. O seu objetivo é acumular a maior pontuação possível!
 
-## Dependências
+## Capturas de Tela
 
-Este jogo utiliza as seguintes dependências:
+![Captura de Tela](./imgs/screenshot.png)
 
--   [style.css](./css/style.css): Arquivo CSS para estilização do jogo.
--   [icon.png](./imgs/icon.png): Ícone do jogo exibido na aba do navegador.
--   [green.mp3](./sounds/green.mp3), [red.mp3](./sounds/red.mp3), [yellow.mp3](./sounds/yellow.mp3), [blue.mp3](./sounds/blue.mp3): Arquivos de áudio para representar as cores.
+## Tecnologias Utilizadas
 
----
+-   HTML
+-   CSS
+-   JavaScript
 
-Este projeto foi criado para proporcionar entretenimento e desafio aos jogadores que desejam testar suas habilidades de memória e destreza. Sinta-se à vontade para explorar, modificar e compartilhar este projeto com outras pessoas! Divirta-se jogando o "Joguinho Genius" e mostrando suas habilidades. Se você tiver alguma dúvida ou feedback, não hesite em nos contatar. Boa sorte e divirta-se!
+## Como Contribuir
+
+Se você gostaria de contribuir para este projeto, siga os passos abaixo:
+
+1. Faça um fork deste repositório.
+2. Clone o seu fork para o seu ambiente local.
+3. Faça as modificações desejadas.
+4. Faça um commit das suas alterações.
+5. Envie um pull request para este repositório.
+
+#

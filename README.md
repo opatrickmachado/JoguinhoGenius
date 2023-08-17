@@ -16,10 +16,6 @@ O "Joguinho Genius" é uma versão digital do clássico jogo de memória Genius.
 4. A cada rodada, a sequência ficará um pouco mais longa e desafiadora.
 5. O seu objetivo é acumular a maior pontuação possível!
 
-## Capturas de Tela
-
-![Captura de Tela](./imgs/screenshot.png)
-
 ## Tecnologias Utilizadas
 
 -   HTML
